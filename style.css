@@ -5,13 +5,35 @@
 body {
     background: hsl(217, 54%, 11%);
 }
+
+.caixa {
+    background: hsl(215, 32%, 27%);
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.img-equilibrium {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
 h1 {
     color: hsl(0, 0%, 100%);
+    padding: 5px;
 }
 p {
     font-size: 18px;
-    color: hsl(0, 0%, 100%);
+    color: hsl(215, 51%, 70%);
 }
+ .diamante, .relogio, .foto-avatar {
+     display: inline-block;
+ }
+
+
 
 /*footer*/
 .attribution { font-size: 11px; text-align: center; }
