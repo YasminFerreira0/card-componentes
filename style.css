@@ -6,7 +6,7 @@ body {
     background: hsl(217, 54%, 11%);
 }
 
-.caixa {
+.caixa {    
     background: hsl(215, 32%, 27%);
     width: 25%;
     margin: 0 auto;
@@ -14,12 +14,19 @@ body {
     padding: 10px;
     border-radius: 20px;
 }
+
 .img-equilibrium {
     width: 90%;
     display: block;
     margin: 0 auto;
+    margin-top: 3%;
     border-radius: 15px;
 }
+.visto{
+    display: none;
+}
+
+
 
 h1 {
     color: hsl(0, 0%, 100%);
@@ -30,7 +37,7 @@ p {
     color: hsl(215, 51%, 70%);
 }
  .diamante, .relogio, .foto-avatar {
-     display: inline-block;
+     display: inline-flex;
  }
 
 
